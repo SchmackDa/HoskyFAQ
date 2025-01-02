@@ -35,7 +35,7 @@ var faq = [ {
   }, {
     keywords: "brownpaper",
     title: "Seriously, a brown paper?",
-    text: `<a href="https://hosky.io/wp-content/uploads/2021/11/Brown-Paw-per-v0.69-Revision-420.pdf">You can read more here</a>`
+    text: `<a href="https://hosky.io/assets/Brown-Paw-per-v0.69-Revision-420.pdf">You can read more here</a>`
   }]
 }, {
   title: "Wot......I don't have to buy it?",
