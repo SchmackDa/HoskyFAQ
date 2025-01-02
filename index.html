@@ -42,7 +42,6 @@
    </div>
       <div id="all_holder">
          <div id="content" class="main_content">
-         
             <h4>Sorry For Your Loss</h4>
             <p>
                It is unfortunate that your life has lead you here but at least you are DYOR. Beginning your Hosky adventure can be a dizzying and 
@@ -57,16 +56,5 @@
          <br/>
       </div>
    </div>
-   <script>
-      fetch('./content.md')
-         .then(response => response.text())
-         .then(markdown => {
-            const html = marked.parse(markdown);
-            document.getElementById('content').innerHTML = html;
-         });
-         
-      // document.getElementById('content').innerHTML =
-      //   DOMPurify.sanitize(marked.parse('# Marked in the browser\n\nRendered by **marked**.'));
-    </script>
 </body>
 </html>
