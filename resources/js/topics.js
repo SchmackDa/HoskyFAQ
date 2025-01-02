@@ -44,7 +44,7 @@ var faq = [ {
     title: "Idjiots will give it to you",
     text: `<p>That's right...by just chatting with a bunch of idjiots, you can get tips, rain, or giveaways in the discord.
               But be careful...our finely tuned algorithm will detect rain farming and you will earn the dreaded umbrella role</p>
-           <a href="https://discord.gg/mJxw2pxp">Join da discord</a> `
+           <a href="https://discord.gg/hosky">Join da discord</a> `
   }, {
     keywords: "doggiebowl",
     title: "<s>Sacrifice ADA to the</s> RIP Doggie Bowl (Nov '21-Dec-24)",
