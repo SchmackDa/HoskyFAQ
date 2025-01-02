@@ -36,7 +36,7 @@ var faq = [ {
     keywords: "brownpaper",
     title: "Seriously, a brown paper?",
     text: `<a href="https://hosky.io/assets/Brown-Paw-per-v0.69-Revision-420.pdf">You can read more here</a>`
-  }]
+  }]                
 }, {
   title: "Wot......I don't have to buy it?",
   items: [{
@@ -202,17 +202,24 @@ var faq = [ {
             that meets your needs with this information.
             </p>   
           <h5>Poolsky:</h5>
-          <p>Link here</p>
+          <p>
+            <a href="https://ultrosff.github.io/adaPoolStats/index.html">Poolsky</a> is a good reference
+            for the current rugpools and shows the stake for each pool as well, if you don't feel
+            like searching an explorer
+          </p>
           <video controls>
             <source src="resources/videos/poolsky.webm" type="video/webm">
           </video>      
           <h5>Elvis Sorter:</h5>
-          <p>Link here</p>
+          <p>The <a href="https://elvis.cnft.at/">Elvis sorter</a> is the "official" ranking of the C(ash Grab) NFT's and will also show pool matches</p>
           <video controls>
             <source src="resources/videos/elvis-sorter.webm" type="video/webm">
           </video>
           <h5>Fetchastake:</h5>
-          <p>Link here</p>
+          <p>
+            A newer entrant to the community tools, <a href="https://www.fetchastake.site">Fetchastake</a>
+            is worth checking out.
+          </p>
           <video controls>
             <source src="resources/videos/fetch-a-stake.webm" type="video/webm">
           </video>
