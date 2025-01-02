@@ -123,7 +123,7 @@ var faq = [ {
     keywords: "dexes",
     title: "On da Blockchain",
     text: `<p>
-              Obviously we recommend that you use our DEX aggregator, <a href="fetch.hosky.io">Fetch</a>, which will find the best route for your trade to get you the most tokens possible.
+              Obviously we recommend that you use our DEX aggregator, <a href="https://fetch.hosky.io">Fetch</a>, which will find the best route for your trade to get you the most tokens possible.
               The Fetch aggregrator fees are even being reimbursed on trades of more than 69 ada.</p>
            <p>
               Of course you can also get Hosky at any of the other popular Cardano DEX's.
