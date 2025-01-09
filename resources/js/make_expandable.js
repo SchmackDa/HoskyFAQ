@@ -1,14 +1,14 @@
 var lastClick = currentTime();
 
 function makeExpandable() {
-  console.log("MAKE EXPANDABLE CALLED")
   $('.mdl-collapse__content').each(function() {
     var content = $(this);
     content.css('margin-top', -content.height());
   })
 
   $(document.body).on('click', '.mdl-collapse__button', function() {
-    if (currentTime() - lastClick < 500) {
+    if (currentTime() - lastClick < 1) {
+      console.log(currentTime() - lastClick)
       return;
     } else {
       lastClick = currentTime();

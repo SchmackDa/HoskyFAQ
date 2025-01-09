@@ -66,8 +66,8 @@
 }
 
 .mdl-collapse__button {
-	font-family: "Lexend", Roboto, "Comic Sans MS", sans-serif;
-	font-size: 16px;
+	font-family: "Lexend", Roboto, sans-serif;
+	font-size: 2rem;
 	color: #000000;
 }
 

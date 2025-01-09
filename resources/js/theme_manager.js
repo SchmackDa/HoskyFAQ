@@ -21,7 +21,7 @@ function resizeMargins() {
     margin = (windowWidth - MAIN_CONTENT_SIZE) / 2;
   }
 
-  $("#toolbar_inner").css("margin-left", margin + "px");
+  // $("#toolbar_inner").css("margin-left", margin + "px");
   $("#all_holder").css("margin-left", margin + "px");
   $("#side-menu").css("height", windowHeight + "px");
   $("#message-list-wrapper").css("min-height", windowHeight + "px");

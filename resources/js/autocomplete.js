@@ -80,6 +80,7 @@ function autocomplete(input, keywords) {
   });
 
   $(document).click(function(event) {
+    console.log("DOCUMENT CLICK HANDLER CALLED")
     if (!$(event.target).closest('.autocomplete-result').length) {
       res.empty().hide();
     }

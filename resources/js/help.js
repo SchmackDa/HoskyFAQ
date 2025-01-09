@@ -92,12 +92,11 @@ function displayResults(results, search) {
   makeExpandable();
 }
 
-function createCategoryElement(category) {
-  return "<h4>" + category.title + "</h4>";
+function createCategoryElement(category) {;
+  return "<h2>" + category.title + "</h2>";
 }
 
 function createFaqElement(faq, searchTerm) {
-  console.log("CREATING FAQ ELEMENT")
   var collapseContent = $("<div></div>").addClass("mdl-collapse__content mdl-animation--default")
       .html(faq.text + "<br/>");
 
@@ -105,11 +104,12 @@ function createFaqElement(faq, searchTerm) {
       .html(collapseContent);
 
   var title = faq.title;
+
   if (title.indexOf(searchTerm) != -1) {
     title = title.replace(searchTerm, "<span class=\"highlighted\">" + searchTerm + "</span>");
   }
 
-  var navLink = $("<a></a>").addClass("mdl-navigation__link mdl-collapse__button")
+  var navLink = $("<a id="+faq.keywords+"></a>").addClass("mdl-navigation__link mdl-collapse__button")
       .html("<i class=\"material-icons mdl-collapse__icon mdl-animation--default\">expand_more</i>" +
         title);
 
@@ -123,3 +123,33 @@ function createFaqElement(faq, searchTerm) {
 function matches(text, query) {
   return text.toLowerCase().indexOf(query.toLowerCase()) != -1;
 }
+
+function openAnchor(target) {
+    if (target) {
+      console.log(target)
+    }
+    let url = target ? target : document.URL
+    let hashIndex = url.indexOf(`#`);
+    let id = '#'+url.split('#')[1] 
+
+    console.log("Target: ", target, "  URL: ", url)
+    console.log("HASH INDEX", hashIndex);
+    // $(window).ready(function() {
+      if (hashIndex !== -1) {
+        console.log("Clicking ID: ", id)
+        $(id).click();
+        location.href = id
+      }
+    // })
+}
+
+function internalLinkHandler(e) {
+  e.preventDefault()
+  openAnchor(e.target.href);
+}
+
+$(window).ready(function() {
+  const internalLink = document.querySelector('.internal');
+  internalLink.addEventListener("click", internalLinkHandler)
+  openAnchor();
+})

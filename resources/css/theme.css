@@ -5,24 +5,31 @@ video {
 	height: 0px;
 }
 
+img {
+	height: 0px;
+}
+
 #facepalm {
-	font-size: 2em;
+	font-size: 1.25em;
 }
 
 #toolbar {
-	height: 100px;
+	height: 3rem;
 	top: 0;
 	position: fixed;
 	z-index: 4;
 	width: 100%;
 	border-bottom: solid 1px #ca2100;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-	background-color: #216cd2;
+	background-color: rgb(33 108 210);
 	border-color: #e3e3e3;
+	border-bottom-color: rgb(229, 233, 235);
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 a {
-	color: #FFAB40;
+	color: #BCE0FD;
 	cursor: pointer;
 }
 
@@ -31,10 +38,10 @@ a {
 }
 
 .icon_logo {
-	/* background: url(../images/logo.svg) 0 0 no-repeat; */
-	margin-top: 2px;
-	width: 75px;
-	height: 75px;
+	background: url(../images/logo.png) 0 0 no-repeat;
+	margin-top: 0px;
+	width: 8rem;
+	height: 3.5rem;
 }
 
 .center {
@@ -45,18 +52,44 @@ a {
 	font-size: 32px;
 }
 
-h3, h4 {
-	font-family: "GROBOLD", Roboto, "Comic Sans MS", sans-serif;
+h1, h2, h3, h4, p {
+	font-family: "Lexend", sans-serif;
+	font-weight: bold;
 	color: #E9E9E9;
 }
 
-.main_content p {
-	font-size: 16px;
+h2 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 3.75rem;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+.mdl-navigation__link {
+	font-size: 1.25em;
+}
+
+.main_content p, ul {
+	font-size: 1.5rem;
 	font-weight: 300;
 }
 
 .main_content a {
 	font-weight: 400;
+}
+
+.main_content ul {
+	list-style-type: none;
+}
+
+.main_content li {
+	margin: 1em;
+	max-width: 80%;
 }
 
 #logo-image:hover {
@@ -69,7 +102,7 @@ body {
 	color: #FFFFFF;
 	background-color: #216cd2;
 	font-family: "Lexend", Roboto, "Comic Sans MS", sans-serif;
-	font-size: 16px;
+	font-size: 1.5rem;
 	font-weight: 400;
 	padding: 0 !important;
 	margin-bottom: 0 !important;
@@ -91,14 +124,14 @@ li {
 }
 
 #toolbar_inner {
-	max-width: 950px;
+	max-width: 90%;
 	height: 100%;
 }
 
 #logo {
 	float: left;
 	margin-left: 20px;
-	padding-top: 9px;
+	padding-top: 0px;
 }
 
 #content {
@@ -106,7 +139,7 @@ li {
 	min-height: 380px;
 	margin-left: 0px;
 	vertical-align: top;
-	margin-left: 150px;
+	/* margin-left: 150px; */
 	margin-top: 129px;
 }
 
@@ -118,6 +151,6 @@ li {
 
 @media (min-width:950px) {
 	#content {
-		width: 680px;
+		width: 950px;
 	}
 }
