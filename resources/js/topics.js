@@ -63,11 +63,15 @@ var faq = [ {
   items: [{
     keywords: "roadmap",
     title: "Roadmap",
-    text: `<p><img src="./resources/images/roadmap.png" height="10px" /></p>`
+    text: `<p>
+            <img src="./resources/images/roadmap.png" height="10px" />
+          </p>`
   }, {
     keywords: "brownpaper",
     title: "Seriously, a brown paper?",
-    text: `<p>You can <a href="https://hosky.io/assets/Brown-Paw-per-v0.69-Revision-420.pdf">read more here</a>`
+    text: `<p>You can 
+            <a href="https://hosky.io/assets/Brown-Paw-per-v0.69-Revision-420.pdf">read more here</a>
+          </p>`
   }]                
 }, {
   title: "Wot......I don't have to buy it?",
@@ -75,8 +79,9 @@ var faq = [ {
     keywords: "discord",
     title: "Idjiots will give it to you",
     text: `<p>That's right...by just chatting with a bunch of idjiots, you can get tips, rain, or giveaways in the discord.
-              But be careful...our finely tuned algorithm will detect rain farming and you will earn the dreaded umbrella role</p>
-           <a href="https://discord.gg/hosky">Join da discord</a> `
+              But be careful...our finely tuned algorithm will detect rain farming and you will earn the dreaded umbrella role
+          </p>
+           <a href="https://discord.gg/hosky">Join da discord</a>`
   }, {
     keywords: "doggiebowl",
     title: "<s>Sacrifice ADA to the</s> RIP Doggie Bowl (Nov '21-Dec-24)",
@@ -85,7 +90,7 @@ var faq = [ {
              around 1.7 ada and some random amount of Hosky.
           </p> 
           <p>This is how Hosky was intially put into circulation and the bowl is still responsible for the 
-          epoch with the most transactions ever, epoch 304.
+            epoch with the most transactions ever, epoch 304.
           </p>
           `
   }, {
@@ -117,6 +122,7 @@ var faq = [ {
           <p>Cash Grabs are a collection of 420420 nfts minted in 2021-2022. Staking 
             them (to a rugpool), in addition to a few other nft collections will earn Hosky 
             rewards from the NFT allocation. The Hosky earned is calculated based on a combination of:
+          </p>
             <ul>
               <li>- number of CGs, Gnomeskies, and S#!tties in the wallet</li>
               <ul>
@@ -133,22 +139,21 @@ var faq = [ {
               </ul>
               <li>- which traits those nfts have and which SPO they're in</li>
               <ul>
-              <li>
-                Both CGs and Gnomeskies have certain traits (e.g. hats, backgrounds, etc.) which 
-                result in a doubling of the base weight if 1 (or more) of the traits match the pool to which
-                it is staked (no stacking for multiple traits).
-              </li>
+                <li>
+                  Both CGs and Gnomeskies have certain traits (e.g. hats, backgrounds, etc.) which 
+                  result in a doubling of the base weight if 1 (or more) of the traits match the pool to which
+                  it is staked (no stacking for multiple traits).
+                </li>
               </ul>
             </ul>
-          </p>
           <p>
             There are tools to help you find the best pool for your taste <a href="#staking-how-to" class="internal">here</a>
           </p>
           <p>
             If you have decided to stake to a rugpool you are probably wondering how you know when you can claim rewards. Please see the following
             graphic which explains how newly staked assets are rewarded.
+            <img src="resources/images/new-delegation.png" alt="image showing that an asset must cross 2 epoch boundaries before rewards can be claimed" />
           </p>
-          <img src="resources/images/new-delegation.png" alt="image showing that an asset must cross 2 epoch boundaries before rewards can be claimed">
           `
   }]
 }, {
@@ -158,9 +163,11 @@ var faq = [ {
     title: "On da Blockchain",
     text: `<p>
               Obviously we recommend that you use our DEX aggregator, <a href="https://fetch.hosky.io">Fetch</a>, which will find the best route for your trade to get you the most tokens possible.
-              The Fetch aggregrator fees are even being reimbursed on trades of more than 69 ada.</p>
+              The Fetch aggregrator fees are even being reimbursed on trades of more than 69 ada.
+          </p>
           <p>
-          <p>Of course you can also get Hosky at any of the other popular Cardano DEX's.</p>`
+            Of course you can also get Hosky at any of the other popular Cardano DEX's.
+          </p>`
   }, {
     keywords: "cexes",
     title: "NYK/NYC",
@@ -177,24 +184,26 @@ var faq = [ {
     keywords: "merch",
     title: "Buy merch, not tokens....or don't",
     text: `<p>If having hosky tokens isn't degen enough for you and you really want to dress to unimpress, there is a
-              variety of <a href="https://hoskyio.myshopify.com">Hosky merchandise</a>
-            </p>`
+            variety of <a href="https://hoskyio.myshopify.com">Hosky merchandise</a>
+          </p>`
   }]
 }, {
   title: "Wen......????????",
   items: [{
     keywords: "cgs",
     title: `C(ash Grab) NFT's (commonly referred to as "cg's")`,
-    text: `<p>Three time NFT of the Year winning collection of 420,420 NFTs, minted at 6.9ADA each. The cg's mint shockingly 
-              lasted less than 1 year (from Dec. 2021 to Nov. 2022).</P>
-            <p>
-              The traits are of varying rarity and desirability making each one "rare" (except da twins).
-              The trait identifiers are held on-chain, with the CG art managed on IPFS (another decentralised mechanism 
-              for the storage of information).
-            <p>
-            <p>
-              The policy was locked on 2023-12-31 23:58:30 UTC. Hosky C(ash grab) NFTs have a 1% royalty rate for sales on the secondary market.
-            </p>`
+    text: `<p>
+            Three time NFT of the Year winning collection of 420,420 NFTs, minted at 6.9ADA each. The cg's mint shockingly 
+            lasted less than 1 year (from Dec. 2021 to Nov. 2022).
+          </p>
+          <p>
+            The traits are of varying rarity and desirability making each one "rare" (except da twins).
+            The trait identifiers are held on-chain, with the CG art managed on IPFS (another decentralised mechanism 
+            for the storage of information).
+          </p>
+          <p>
+            The policy was locked on 2023-12-31 23:58:30 UTC. Hosky C(ash grab) NFTs have a 1% royalty rate for sales on the secondary market.
+          </p>`
   }, {
     keywords: "s#!tties",
     title: "S#!tties",
@@ -228,25 +237,29 @@ var faq = [ {
   }, {
     keywords: "website",
     title: "Website",
-    text: `<p>Coming thoon for 84 years, the latest rumor is it will launch in 2069
+    text: `<p>
+            Coming thoon for 84 years, the latest rumor is it will launch in 2069
             and offer live ada/cg statistics for the rugpools
           </p>`
   }, {
     keywords: "tenk",
     title: "10K",
-    text: `<p>The "proper" 10k NFT collection that will supposedly be given to C(ash Grab) NFT holders. The snapshot has already been
+    text: `<p>
+            The "proper" 10k NFT collection that will supposedly be given to C(ash Grab) NFT holders. The snapshot has already been
             done, so you can only watch pool.pm anxiously and head to jpg.store when you see them mint.
           </p>`
   },{
     keywords: "radioactive",
     title: "Radioactive Purpose",
-    text: `<p>Prolly Hosky was just trolling, but these "have purpose".......latest rumor is they may 
+    text: `<p>
+            Prolly Hosky was just trolling, but these "have purpose".......latest rumor is they may 
             interact with the 10k collection.
           </p>`
   },{
     keywords: "poobag",
     title: "Mystery Accessory Reveal",
-    text: `<p>These have already been distributed at in-person events using the "Proof of Onbarding" protocol
+    text: `<p>
+            These have already been distributed at in-person events using the "Proof of Onbarding" protocol
             that the team disappointingly had a hand in. Supposedly these will also interact with the 10k collection. 
           </p>`
   }]
@@ -255,22 +268,25 @@ var faq = [ {
   items: [{
     keywords: "tipbot",
     title: "Cardano Tipbot",
-    text: `<p id="tipbot">Once you receive that sweet sweet rain in the discord, you will immediately wonder where are the tokens.
-              DM the Cardano Tip Bot the command "/info" and it will respond with everything that it is capable of.
+    text: `<p id="tipbot">
+            Once you receive that sweet sweet rain in the discord, you will immediately wonder where are the tokens.
+            DM the Cardano Tip Bot the command "/info" and it will respond with everything that it is capable of.
           </p>
-          <p>If those words make sense to you separately, but not together, here are some videos.</p>
-        <h5>Overview</h5>
-        <video controls>
-          <source src="resources/videos/tipbot-overview.webm" type="video/webm">
-        </video>
-        <h5>Withdrawal</h5>
-        <video controls>
-          <source src="resources/videos/tipbot-withdrawal.webm" type="video/webm">
-        </video>
-        <h5>Deposit</h5>
-        <video controls>
-          <source src="resources/videos/tipbot-deposit.webm" type="video/webm">
-        </video>
+          <p>
+            If those words make sense to you separately, but not together, here are some videos.
+          </p>
+          <h5>Overview</h5>
+          <video controls>
+            <source src="resources/videos/tipbot-overview.webm" type="video/webm">
+          </video>
+          <h5>Withdrawal</h5>
+          <video controls>
+            <source src="resources/videos/tipbot-withdrawal.webm" type="video/webm">
+          </video>
+          <h5>Deposit</h5>
+          <video controls>
+            <source src="resources/videos/tipbot-deposit.webm" type="video/webm">
+          </video>
         `
   }, {
     keywords: "staking-how-to",
@@ -280,7 +296,7 @@ var faq = [ {
             if you want as much worthlessneess as possible. These videos highlight the community tools that were
             made to assist da idjiots. Not all functionality is covered, but you should be able to find the pool
             that meets your needs with this information.
-            </p>   
+          </p>   
           <h5>Poolsky:</h5>
           <p>
             <a href="https://ultrosff.github.io/adaPoolStats/index.html">Poolsky</a> is a good reference
@@ -288,27 +304,33 @@ var faq = [ {
             like searching an explorer
           </p>
           <video controls>
-            <source src="resources/videos/poolsky.webm" type="video/webm">
+            <source src="resources/videos/poolsky.webm" type="video/webm" />
           </video>      
           <h5>Elvis Sorter:</h5>
-          <p>The <a href="https://elvis.cnft.at/">Elvis sorter</a> is the "official" ranking of the C(ash Grab) NFT's and will also show pool matches</p>
+          <p>
+            The <a href="https://elvis.cnft.at/">Elvis sorter</a> 
+            is the "official" ranking of the C(ash Grab) NFT's and will also show 
+            pool matches
+          </p>
           <video controls>
-            <source src="resources/videos/elvis-sorter.webm" type="video/webm">
+            <source src="resources/videos/elvis-sorter.webm" type="video/webm" />
           </video>
           <h5>Fetchastake:</h5>
           <p>
-            A newer entrant to the community tools, <a href="https://www.fetchastake.site">Fetchastake</a>
+            A newer entrant to the community tools, 
+            <a href="https://www.fetchastake.site">Fetchastake</a>
             is worth checking out.
           </p>
           <video controls>
-            <source src="resources/videos/fetch-a-stake.webm" type="video/webm">
+            <source src="resources/videos/fetch-a-stake.webm" type="video/webm" />
           </video>
           <h5>Strawberry Sorter</h5>
-          <p>A tool that can be used in the discord</p>
+          <p>
+            A tool that can be used in the discord
+          </p>
           <video controls>
             <source src="resources/videos/strawberry-sorter.webm" type="video/webm">
-          </video>  
-          `
+          </video>`
   }, {
     keywords: "delegate",
     title: "Delegate your wallet to a pool",
@@ -319,8 +341,7 @@ var faq = [ {
           </p>
           <p>
             (Eternl, Lace, Vespr videos work in progress)
-          </p>
-          `
+          </p>`
           // <video controls>
           //   <source src="resources/videos/eternl-edited.webm" type="video/webm">
           // </video>
@@ -333,7 +354,7 @@ var faq = [ {
             your stake key in your wallet application, here is a universal way to find your stake key.
           </p>
           <video controls>
-            <source src="resources/videos/get-stake-key.webm" type="video/webm">
+            <source src="resources/videos/get-stake-key.webm" type="video/webm" />
           </video>
           `
   }, {
@@ -343,7 +364,7 @@ var faq = [ {
             When an idjiot asks if you have checked the PDF, here is what they mean:
           </p>
           <video controls>
-            <source src="resources/videos/checking-the-pdf.webm" type="video/webm">
+            <source src="resources/videos/checking-the-pdf.webm" type="video/webm" />
           </video>
           `
   }, {
@@ -366,7 +387,7 @@ var faq = [ {
           </p>
           <br />
           <video controls>
-            <source src="resources/videos/claiming-rewards.webm" type="video/webm">
+            <source src="resources/videos/claiming-rewards.webm" type="video/webm" />
           </video>
           `
   }]
@@ -375,21 +396,28 @@ var faq = [ {
   items: [{
     keywords: "drep-id",
     title: "What is Hosky's dRep ID",
-    text: "<p>drep125s4lx920k0z38fptf2lvtf933kr5udts3ahdh5am0nxzcqwua9</p>"
+    text: `<p>
+            drep125s4lx920k0z38fptf2lvtf933kr5udts3ahdh5am0nxzcqwua9
+          </p>`
   }, {
     keywords: "drep-values",
     title: "Where can I learn about Hosky's values",
-    text: `<p><a href="https://medium.com/@hosky_/hoskys-drep-platform-cardano-first-67d15c2e57c2">
-            Hosky's platform
-          </a> - Learn aobut Hosky's stance</p>
+    text: `<p>
+            <a href="https://medium.com/@hosky_/hoskys-drep-platform-cardano-first-67d15c2e57c2">
+              Hosky's platform
+            </a> 
+            - Learn aobut Hosky's stance
+          </p>
           `
   }, {
     keywords: "drep-how-to",
     title: "How do I delegate my voting power to Hosky",
-    text: `<p><a href="https://gov.tools/drep_directory/drep125s4lx920k0z38fptf2lvtf933kr5udts3ahdh5am0nxzcqwua9">
-            Visit this site 
-          </a>
-          and click the delegate button</p>`
+    text: `<p>
+            <a href="https://gov.tools/drep_directory/drep125s4lx920k0z38fptf2lvtf933kr5udts3ahdh5am0nxzcqwua9">
+              Visit this site 
+            </a>
+            and click the delegate button
+          </p>`
   }, ]
 }]
 

@@ -20,6 +20,10 @@
 	width: 100%;
 }
 
+/* .mdl-collapse.mdl-collapse--opened * {
+	height: 100%;
+} */
+
 .mdl-collapse.mdl-collapse--opened video {
 	height: 100%;
 }
@@ -87,5 +91,11 @@
 	#content {
 		padding-left: 16px;
 		padding-right: 16px;
+	}
+}
+
+@media (max-width:620px) {
+	.mdl-collapse.mdl-collapse--opened * {
+		height: 100%;
 	}
 }
