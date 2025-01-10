@@ -341,11 +341,11 @@ var faq = [ {
           </p>
           <p>
             (Eternl, Lace, Vespr videos work in progress)
-          </p>`
-          // <video controls>
-          //   <source src="resources/videos/eternl-edited.webm" type="video/webm">
-          // </video>
-          // `
+          </p>
+          <video controls>
+            <source src="resources/videos/eternl-edited.webm" type="video/webm">
+          </video>
+          `
   }, {
     keywords: "get-stake-key",
     title: "Find your stake key",

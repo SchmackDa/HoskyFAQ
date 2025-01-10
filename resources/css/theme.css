@@ -62,8 +62,12 @@ h1, h2, h3, h4, p {
 	color: #E9E9E9;
 }
 
+h1 {
+	font-size: 2.25rem;
+}
+
 h2 {
-	font-size: 2em;
+	font-size: 1.6rem;
 }
 
 h4 {
@@ -79,7 +83,7 @@ h5 {
 }
 
 .main_content p, ul {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	font-weight: 300;
 }
 
@@ -145,6 +149,8 @@ li {
 	vertical-align: top;
 	/* margin-left: 150px; */
 	margin-top: 129px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
 }
 
 @media (max-width:950px) {
@@ -155,12 +161,12 @@ li {
 
 @media (min-width:950px) {
 	#content {
-		width: 950px;
+		margin: 129px auto
 	}
 }
 
-@media (max-width:620px) {
+/* @media (max-width:620px) {
 	.mdl-collapse__content {
 		height: 0px;
 	}
-}
+} */

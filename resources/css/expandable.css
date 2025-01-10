@@ -43,6 +43,7 @@
 	transition-property: margin-top;
 	transition-duration: 0.2s;
 	margin-left: 5%;
+	height: 0px;
 }
 
 .mdl-collapse .mdl-collapse__icon {
@@ -60,6 +61,7 @@
 
 .mdl-collapse.mdl-collapse--opened .mdl-collapse__content {
 	margin-top: 0 !important;
+	height: 100%;
 }
 
 .mdl-collapse__content {
@@ -71,7 +73,7 @@
 
 .mdl-collapse__button {
 	font-family: "Lexend", Roboto, sans-serif;
-	font-size: 2rem;
+	font-size: 1.25rem;
 	color: #000000;
 }
 
@@ -87,15 +89,15 @@
 	color: #000000;
 }
 
-@media screen and (max-width: 950px) {
+/* @media screen and (max-width: 950px) {
 	#content {
 		padding-left: 16px;
 		padding-right: 16px;
 	}
-}
+} */
 
-@media (max-width:620px) {
+/* @media (max-width:620px) {
 	.mdl-collapse.mdl-collapse--opened * {
 		height: 100%;
 	}
-}
+} */
