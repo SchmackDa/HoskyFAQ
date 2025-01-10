@@ -152,8 +152,8 @@ var faq = [ {
           <p>
             If you have decided to stake to a rugpool you are probably wondering how you know when you can claim rewards. Please see the following
             graphic which explains how newly staked assets are rewarded.
-            <img src="resources/images/new-delegation.png" alt="image showing that an asset must cross 2 epoch boundaries before rewards can be claimed" />
           </p>
+            <img src="resources/images/new-delegation.png" alt="image showing that an asset must cross 2 epoch boundaries before rewards can be claimed" />
           `
   }]
 }, {

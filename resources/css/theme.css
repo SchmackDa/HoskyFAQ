@@ -70,6 +70,10 @@ h2 {
 	font-size: 1.6rem;
 }
 
+h3 {
+	font-size: 2rem;
+}
+
 h4 {
 	font-size: 3.75rem;
 }
@@ -165,8 +169,13 @@ li {
 	}
 }
 
-/* @media (max-width:620px) {
-	.mdl-collapse__content {
-		height: 0px;
+@media (max-width:850px) {
+	.mdl-collapse__content div {
+		margin-left: 0px;
 	}
-} */
+
+	.mdl-collapse__content ul {
+		padding: 0px;
+		overflow-wrap: anywhere;
+	}
+}
