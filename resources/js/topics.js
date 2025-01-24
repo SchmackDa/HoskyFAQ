@@ -56,6 +56,8 @@ var faq = [ {
             <li>VEGAS: pool1df9rj4n0t3zlpak7xnh4ue6t3yh9zlw7a02w4l8askp77up25rt</li>
             <li>WOOF: pool1cg559cdc25fkvs73umj6w5nxlwy3mpmj02xt7p4v69eqs5ncz9k</li>
             <li>WRFGS: 6ee64bb8bc5ded3160150682e6e2ac5a4c2a0843634b94562ae69ff1</li>
+            <li>EASY1: 20df8645abddf09403ba2656cda7da2cd163973a5e439c6e43dcbea9</lic>
+            <li>MALU: 38927599cc3ff6b081501e0ee1dc4f0cb8ba012b3de8b49a785bb05a</li>
           </ul>`
   }]
 }, {
